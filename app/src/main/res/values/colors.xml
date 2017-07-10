@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#FF5252</color>
+
+    <color name="layout_bg_normal">@color/white</color>
+    <color name="layout_bg_pressed">#dfdfdf</color>
+    <color name="line_color">#BDBDBD</color>
+    <color name="textColor">#212121</color>
+    <color name="infoTextColor">#757575</color>
+    <color name="edit_color">#333333</color>
+    <color name="edit_hit_color">#999999</color>
+    <color name="day_layout_bg_normal">@color/white</color><!-- #f6f6f6 -->
+    <color name="day_layout_bg_pressed">#dfdfdf</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white40">#40FFFFFF</color>
+    <color name="main_bg">#e7e7e7</color>
+
+    <color name="index_tab_text_color">#202020</color>
+    <color name="index_tab_text_color_select">#3F51B5</color>
+
+
+    <!-- 下拉刷新时，颜色值 -->
+    <color name="swiperefresh_color1">#ff00ddff</color>
+    <color name="swiperefresh_color2">#ffffbb33</color>
+    <color name="swiperefresh_color3">#ffff4444</color>
+    <color name="swiperefresh_color4">#ffaa66cc</color>
+
+
+
+</resources>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">SF6泄漏监控报警系统</string>
+
+    <string name="main_tab_real_time">实时数据</string>
+    <string name="main_tab_history">历史数据</string>
+    <string name="main_tab_threshold">报警阈值</string>
+    <string name="main_tab_fan_status">风机状态</string>
+    <string name="main_tab_setting">软件设置</string>
+
+
+    <string name="loading">加载中…</string>
+    <string name="loading_no_more">已加载全部</string>
+    <string name="error_view_click_to_refresh">点击屏幕,重新加载</string>
+    <string name="error_view_no_data">暂无内容</string>
+    <string name="error_view_load_error_click_to_refresh">内容加载失败\r\n点击重新加载</string>
+    <string name="error_view_loading">@string/loading</string>
+    <string name="error_view_network_error_click_to_refresh">@string/tip_network_error</string>
+    <string name="tip_network_error">网络连接不可用，请检查网络</string>
+    <string name="tip_network_req_error">网络请求失败，请重试</string>
+    <string name="tip_loading_no_complete">数据还未加载完成!</string>
+    <string name="tip_no_camera">没有系统相机</string>
+    <string name="action_bar_select_image">选择图片</string>
+
+
+    <string name="copy">复制</string>
+    <string name="delete">删除</string>
+    <string name="copy_success">复制成功</string>
+    <string name="deleting">正在删除…</string>
+    <string name="delete_success">删除成功</string>
+    <string name="delete_faile">删除失败</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="search">搜索</string>
+    <string name="reply">回复</string>
+    <string name="up">赞</string>
+    <string name="send">发送</string>
+    <string name="save">保存</string>
+    <string name="remark">备注</string>
+    <string name="login">登录</string>
+    <string name="reg">注册</string>
+    <string name="comment">评论</string>
+    <string name="complete">完成</string>
+    <string name="confirm">提交</string>
+
+
+    <!-- share start -->
+    <string name="share_to">分享到</string>
+    <string name="platform_qq">QQ</string>
+    <string name="platform_copy_link">复制链接</string>
+    <string name="platform_more_option">更多</string>
+    <string name="platform_sina">微博</string>
+    <string name="platform_weichat">微信</string>
+    <string name="platform_weichat_circle">朋友圈</string>
+    <!-- share end -->
+
+</resources>

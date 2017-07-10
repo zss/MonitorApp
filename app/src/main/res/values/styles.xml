@@ -1,0 +1,34 @@
+<resources>
+
+    <style name="SplashTheme" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:background">@drawable/splash</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="IndexTabTextTheme">
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="android:textColor">@color/index_tab_text_color</item>
+    </style>
+
+    <!-- 横向线条 -->
+    <style name="h_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:background">?attr/lineColor</item>
+    </style>
+    <!-- 纵向线条 -->
+    <style name="v_line">
+        <item name="android:layout_width">1dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">?attr/lineColor</item>
+    </style>
+
+    <!-- 加载滚动条样式 -->
+    <style name="loading">
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progressloading</item>
+        <item name="android:indeterminateDuration">1000</item>
+        <item name="android:indeterminateOnly">true</item>
+    </style>
+
+</resources>

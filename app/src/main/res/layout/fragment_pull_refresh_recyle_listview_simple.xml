@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:id="@+id/rootLayout"
+              android:background="?attr/windows_bg"
+              android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/fl_error_item"
+    />
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_below="@+id/top_menu"
+                 android:layout_weight="1"
+                 android:id="@+id/lay_content"
+                 android:layout_height="match_parent">
+        <com.oumiao.monitor.widget.SuperRefreshLayout
+            android:id="@+id/swipe_layout"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </com.oumiao.monitor.widget.SuperRefreshLayout>
+        <com.oumiao.monitor.ui.empty.EmptyLayout
+            android:id="@+id/error_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible" />
+    </FrameLayout>
+
+</LinearLayout>

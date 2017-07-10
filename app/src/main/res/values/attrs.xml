@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="slidingBlock" format="reference|color"/>
+        <attr name="allowWidthFull" format="boolean"/>
+        <attr name="disableViewPager" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color"/>
+        <attr name="roundProgressColor" format="color"/>
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="roundTextColor" format="color" />
+        <attr name="roundTextSize" format="dimension" />
+        <attr name="roundText" format="string"/>
+        <attr name="max" format="integer"></attr>
+        <attr name="textIsDisplayable" format="boolean"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+
+    <attr name="rightPadding" format="dimension" />
+    <declare-styleable name="SlidingMenu">
+        <attr name="rightPadding" />
+    </declare-styleable>
+
+    <declare-styleable name="BinarySlidingMenu">
+        <attr name="rightPadding" />
+        <attr name="slidingMenuMode" format="integer">
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="all" value="3"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="DashedLine">
+        <attr name="dashLineColor" format="color"/>
+    </declare-styleable>
+</resources>

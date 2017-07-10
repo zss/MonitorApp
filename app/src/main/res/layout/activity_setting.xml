@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/main_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="?attr/layout_item_bg"
+        android:layout_marginTop="@dimen/dp10"
+        android:padding="@dimen/dp16"
+        android:layout_height="wrap_content"
+        android:id="@+id/lay_account">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="账号安全"
+            android:layout_centerVertical="true"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/sp16"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iv_name_arrow_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_keyboard_arrow_right_grey_500_24dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp10"
+        android:background="?attr/layout_item_bg"
+        android:layout_height="wrap_content"
+        android:id="@+id/lay_msg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="新消息通知"
+            android:layout_centerVertical="true"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/sp16"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iv_number_arrow_right"
+            android:layout_width="wrap_content"
+            android:visibility="invisible"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_keyboard_arrow_right_grey_500_24dp"/>
+    </RelativeLayout>
+    <include layout="@layout/view_line_h"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="?attr/layout_item_bg"
+        android:padding="@dimen/dp16"
+        android:layout_height="wrap_content"
+        android:id="@+id/lay_common">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="通用"
+            android:layout_centerVertical="true"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/sp16"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:id="@+id/iv_gender_arrow_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_keyboard_arrow_right_grey_500_24dp"/>
+    </RelativeLayout>
+    <include layout="@layout/view_line_h"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="?attr/layout_item_bg"
+        android:padding="@dimen/dp16"
+        android:layout_height="wrap_content"
+        android:id="@+id/lay_about_us">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="关于梧桐艺考"
+            android:layout_centerVertical="true"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/sp16"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_keyboard_arrow_right_grey_500_24dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp16"
+        android:text="退出登录"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/dp16"
+        android:textSize="@dimen/sp14"
+        android:textColor="@color/white"
+        android:padding="@dimen/dp16"
+        android:background="@drawable/common_btn_red_selector"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_logout"
+        />
+</LinearLayout>

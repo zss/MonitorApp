@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+    <include layout="@layout/layout_toolbar"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/container"
+        android:layout_height="match_parent"/>
+    <include layout="@layout/view_line_h"/>
+    <com.ashokvarma.bottomnavigation.BottomNavigationBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="@dimen/activity_main_tab_height"/>
+</LinearLayout>
